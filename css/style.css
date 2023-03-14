@@ -11,7 +11,7 @@
   --surface-color: rgba(255, 255, 255, 0.05);
   --surface-color-hover: rgba(0, 0, 0, 0.02);
   --highlight-color: rgba(255, 255, 255, 0.2);
-  --switch-bg-url:url(../assets/moon-stars.svg);
+  --switch-bg-url: url(../assets/moon-stars.svg);
 }
 
 .light {
@@ -21,7 +21,7 @@
   --surface-color: rgba(0, 0, 0, 0.05);
   --surface-color-hover: rgba(0, 0, 0, 0.02);
   --highlight-color: rgba(0, 0, 0, 0.1);
-  --switch-bg-url:url(../assets/sun.svg);
+  --switch-bg-url: url(../assets/sun.svg);
 }
 
 body {
@@ -39,7 +39,8 @@ body * {
 }
 
 #container {
-  width: 360px;
+  width: 100%;
+  max-width: 588px;
   margin: 56px auto 0px;
   /* margin: 25px auto 0px; */
   padding: 0 24px;
@@ -139,7 +140,7 @@ ul li a:hover {
   font-size: 24px;
 }
 
-#social-links a{
+#social-links a {
   display: flex;
   align-items: center;
   justify-content: center;
