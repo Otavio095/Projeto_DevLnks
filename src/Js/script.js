@@ -14,10 +14,10 @@ function toggleMode() {
   // substituir a img;
   if (html.classList.contains("light")) {
     // se tiver light mode add img light;
-    img.setAttribute('src', './assets/avatar-light.png'); // Modificando um atributo;
+    img.setAttribute('src', './src/assets/avatar-light.png'); // Modificando um atributo;
   } else {
     // se tiveer sem light mode, manter a img normal;
-    img.setAttribute('src', './assets/avatar.png');
+    img.setAttribute('src', './src/assets/avatar.png');
   }
 
   
